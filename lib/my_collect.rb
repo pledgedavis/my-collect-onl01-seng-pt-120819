@@ -5,7 +5,7 @@ def my_collect(array)
  puts  yield.(array[counter])
   counter += 1
  end
- collection
+ array
 end
 
 
